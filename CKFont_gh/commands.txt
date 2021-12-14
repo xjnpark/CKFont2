@@ -1,0 +1,43 @@
+conda activate tf_gpu_1.13
+
+
+** batch style
+
+python ./tools/hgl_cjo_gen.py
+python ./tools/src-font-image-generator.py 
+python ./tools/src-split-font-image-generator.py
+python ./tools/tgt-font-image-generator.py 
+python ./tools/tgt-split-font-image-generator.py
+python ./tools/combine_image_generate.py
+
+** Convert images to TFRecords
+CUDA_VISIBLE_DEVICES=1 python ./tools/images-to-tfrecords.py
+
+** Train the model
+CUDA_VISIBLE_DEVICES=2 python main.py --mode train --output_dir trained_model --max_epochs 15 
+
+** Convert images to TFRecords for testing
+CUDA_VISIBLE_DEVICES=1 python ./tools/test-images-to-tfrecords.py
+
+** Generating results
+CUDA_VISIBLE_DEVICES=1 python main.py --mode test --output_dir test_seen_char_styles --checkpoint trained_model
+
+** Generating unseen-results
+CUDA_VISIBLE_DEVICES=1 python main.py --mode test --output_dir test_unseen_256_17 --checkpoint finetuned_model
+
+** Command for finetuning the pre-trained model
+CUDA_VISIBLE_DEVICES=1 python main.py --mode train --output_dir finetuned_model --max_epochs 10000 --checkpoint trained_model
+
+
+# Quantitative metrics
+pip install natsort
+Enter KomFont or SkFont directory
+
+1) First seperate output images and target images from the testing results
+python ../testing_codes/image-data-seperation.py 
+
+2) Compute SSIM using the tgt and outsputs from the first step
+python ../testing_codes/computing_ssim.py
+
+3) Compute SSIM, L1/L2 using the tgt and outsputs from the first step
+python ../testing_codes/L1L2LossWithoutTensorflow.py
