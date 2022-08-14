@@ -12,23 +12,25 @@ A lot of research has been carried out on the Hangeul generation model using dee
 
 ---  
 ## Method
+
 ### - CKFont2 concept diagram
 <img src = "https://user-images.githubusercontent.com/62954678/184546629-9831c690-3f11-456f-821f-0988e7b40f7f.png" width="800" height = "300"> 
+
 ### - Sample output images of the double and compound characters left and characters right generated  
 
    <img src = "https://user-images.githubusercontent.com/62954678/184546662-2f2f4bd9-0262-48e9-85cf-778d1bdcf6a6.png" width="400" height = "300">       <img src = "https://user-images.githubusercontent.com/62954678/184546679-3e39952e-17db-4421-8aa6-5cfe0d9d83be.png" width="400" height = "300"> 
 ---
 ## Results  
 
-### - Sample output images of Korean (Hangul) left and Chinese characters right generated  
+### - Sample output images with other models  
 
 <img src = "https://user-images.githubusercontent.com/62954678/184547941-979409a7-730f-4e11-b2bf-0abfc4c26bd9.png" width="1000" height = "400"> 
 
 ## Citation
 ---
 J. Park, A. U. Hassan and J. Choi, "An Improved Few-Shot Hangul Font Generation Model based on Hangul Composability", KIPS Transactions on Software and Data Engineering, vol. . DOI: https://doi.org/.  
-
 ---
 ## Copyright
 ---
 The code and other helping modules are only allowed for PERSONAL and ACADEMIC usage.
+---
