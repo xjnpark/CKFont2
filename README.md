@@ -24,7 +24,7 @@ A lot of research has been carried out on the Hangeul generation model using dee
 
 ### - Sample output images with other models  
 
-<img src = "https://user-images.githubusercontent.com/62954678/184547941-979409a7-730f-4e11-b2bf-0abfc4c26bd9.png" width="1000" height = "400"> 
+<img src = "https://user-images.githubusercontent.com/62954678/184548161-f354b83e-43a6-42ea-a0b5-f9bd330431e0.png" width="1000" height = "400"> 
 
 ## Citation
 ---
