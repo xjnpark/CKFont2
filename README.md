@@ -16,13 +16,13 @@ A lot of research has been carried out on the Hangeul generation model using dee
 <img src = "https://user-images.githubusercontent.com/62954678/184546629-9831c690-3f11-456f-821f-0988e7b40f7f.png" width="800" height = "300"> 
 ### - Sample output images of the double and compound characters left and characters right generated  
 
-   <img src = "https://user-images.githubusercontent.com/62954678/184546662-2f2f4bd9-0262-48e9-85cf-778d1bdcf6a6.png" width="400" height = "300"> >>    <img src = "https://user-images.githubusercontent.com/62954678/184546679-3e39952e-17db-4421-8aa6-5cfe0d9d83be.png" width="400" height = "300"> 
+   <img src = "https://user-images.githubusercontent.com/62954678/184546662-2f2f4bd9-0262-48e9-85cf-778d1bdcf6a6.png" width="400" height = "300">       <img src = "https://user-images.githubusercontent.com/62954678/184546679-3e39952e-17db-4421-8aa6-5cfe0d9d83be.png" width="400" height = "300"> 
 ---
 ## Results  
 
 ### - Sample output images of Korean (Hangul) left and Chinese characters right generated  
 
-<img src = "https://user-images.githubusercontent.com/62954678/184547634-23149779-c0c3-4545-a514-00f6a9b67eb9.png" width="1000" height = "600"> 
+<img src = "https://user-images.githubusercontent.com/62954678/184547941-979409a7-730f-4e11-b2bf-0abfc4c26bd9.png" width="1000" height = "400"> 
 
 ## Citation
 ---
