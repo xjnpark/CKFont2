@@ -18,7 +18,7 @@ A lot of research has been carried out on the Hangeul generation model using dee
 
 ### - Sample output images of the double and compound characters left and characters right generated  
 
-   <img src = "https://user-images.githubusercontent.com/62954678/184546662-2f2f4bd9-0262-48e9-85cf-778d1bdcf6a6.png" width="400" height = "300">       <img src = "https://user-images.githubusercontent.com/62954678/184546679-3e39952e-17db-4421-8aa6-5cfe0d9d83be.png" width="400" height = "300"> 
+   <img src = "https://user-images.githubusercontent.com/62954678/184546662-2f2f4bd9-0262-48e9-85cf-778d1bdcf6a6.png" width="500" height = "300">       <img src = "https://user-images.githubusercontent.com/62954678/184546679-3e39952e-17db-4421-8aa6-5cfe0d9d83be.png" width="500" height = "300"> 
 ---
 ## Results  
 
