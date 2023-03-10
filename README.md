@@ -1,10 +1,10 @@
 # CKFont2 : Hangul_Font_GenerationModel
-## CKFont2: 한글 구성요소를 이용한 개선된 퓨샷 한글 폰트 생성 모델 (2022. ?.)
+## CKFont2: 한글 구성요소를 이용한 개선된 퓨샷 한글 폰트 생성 모델 (2022. 12.)
 ### CKFont2: An Improved Few-Shot Hangul Font Generation Model based on Hangul Composability
 
- [KIPS](http://ktsde.kips.or.kr/digital-library/25120)
- KIPS Transactions on Software and Data Engineering, Vol. 
- [PDF](http://ktsde.kips.or.kr/)
+ [KIPS](http://ktsde.kips.or.kr/digital-library/publication?volume=11&number=12)
+ KIPS Transactions on Software and Data Engineering, Vol. 11, No. 12, pp. 499-508, Dec. 2022
+ [PDF](https://doi.org/10.3745/KTSDE.2022.11.12.499)
 ---
 ## Abstract  
 
