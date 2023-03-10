@@ -1,4 +1,4 @@
-# CKFont2 : Hangul_Font_GenerationModel
+# CKFont2 : Component Based Korean Font Generation Model
 ## CKFont2: 한글 구성요소를 이용한 개선된 퓨샷 한글 폰트 생성 모델 (2022. 12.)
 ### CKFont2: An Improved Few-Shot Hangul Font Generation Model based on Hangul Composability
 
